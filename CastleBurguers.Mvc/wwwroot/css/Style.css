@@ -1,0 +1,599 @@
+﻿body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Anton', sans-serif;
+}
+
+.background-banner {
+    background-image: url('../Image/backgoundbanner.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+    margin-top: -20px;
+}
+
+.left-burguer {
+    width: 50vw;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.left-burguer-image {
+    width: 35vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    margin-right: 430px;
+    margin-top: -410px;
+}
+
+.rigth-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 25px;
+    margin-top: -950px;
+}
+
+span {
+    color: #CD7F32;
+}
+
+
+.background-fome {
+    background-image: url('../Image/backgroundfome.png');
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-fome {
+    flex: 1;
+    margin: 25px;
+    margin: 65px;
+}
+
+
+
+h1 {
+    color: #fff;
+    font-size: 60px;
+}
+
+h7 {
+    font-family: 'Eczar', sans-serif;
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+/**/
+.button-container {
+    margin-top: 20px;
+}
+
+.cta-button {
+    background-color: #CD7F32;
+    color: #000;
+    letter-spacing: 2px;
+    text-transform: none;
+    border: 2px solid transparent;
+    padding: 13px 35px;
+    border-radius: 10px;
+    transition: .4s;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+}
+
+    .cta-button::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        border-style: solid;
+        border-width: 6px 0 6px 12px;
+        border-color: transparent transparent transparent #000;
+    }
+
+    .cta-button:hover {
+        background-color: transparent;
+        color: #fff;
+        border: 2px solid #CD7F32;
+        cursor: pointer;
+    }
+
+        .cta-button:hover: {
+            background-color: #fff;
+            color: #fff;
+            border: 2px solid #CD7F32;
+            cursor: pointer;
+        }
+
+        .cta-button:hover::after {
+            border-color: transparent transparent transparent #fff;
+        }
+
+
+
+/**/
+
+.right-burger-fome {
+    flex: 1;
+    text-align: right;
+}
+
+.right-burguer-explosivo {
+    width: 50vw;
+    height: 100vh;
+    margin: -165px;
+}
+
+
+/****************************REEEEEEI*********************************************/
+
+.background-castelo {
+    background-image: url('../Image/Castelo.png');
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-rei {
+    flex: 1;
+    margin: 65px;
+    margin-top: 200px;
+    margin-left: 150px;
+    position: absolute;
+}
+
+.right-batata {
+    margin-left: -85px;
+}
+
+
+.right-batata-flutuando {
+    width: 15vw;
+    height: 30vh;
+    margin-top: 15px;
+}
+
+
+.right-burger-rei {
+    flex: 1;
+    text-align: right;
+}
+
+.right-burguer-rei {
+    width: 55vw;
+    height: 75vh;
+    margin-left: 230px;
+}
+
+.right-tomate-rei {
+    text-align: right;
+    margin-top: -100px;
+    margin-left: 800px;
+}
+
+.right-tomate {
+    width: 15vw;
+    height: 30vh;
+    opacity: 0.5
+}
+
+
+
+
+
+/*****************************************************************/
+.background-cardapio {
+    background-image: url('../Image/fundocardapio.png');
+    background-size: cover;
+    display: flex;
+    height: 150vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardapio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Imagem-cardapio {
+    margin-top: -250px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+/***************************************************/
+
+
+/**correto*/
+/**correto*/
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.card {
+    flex-basis: calc(50% - 100px);
+    margin-bottom: 40px;
+    background-color: #000;
+    border-radius: 20px;
+    padding: 20px;
+    height: 210px;
+    /****/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 250px;
+    box-shadow: 0px 1px 40px #000;
+}
+
+.img-card {
+    height: 310px;
+    width: 310px;
+    margin-left: -130px;
+    margin-top: -100px;
+}
+
+.Paragrafo-button {
+    color: #7D7D7D;
+    /*color: #fff;*/
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 10px;
+}
+
+
+.titulo-cardapio {
+    color: #CD7F32;
+    font-size: 30px;
+    margin: 0px;
+}
+
+.text-container {
+    text-align: left;
+}
+
+h5 {
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.cards-and-button {
+    text-align: center;
+    margin-top: 20px; /* ajuste o valor conforme necessário */
+}
+
+
+
+.button-container {
+    margin-top: 20px; /* ajuste o valor conforme necessário */
+}
+
+.custom-button {
+    background-color: #CD7F32;
+    color: #000;
+    letter-spacing: 2px;
+    text-transform: none;
+    border: 2px solid transparent;
+    padding: 13px 35px;
+    border-radius: 10px;
+    transition: .4s;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+}
+
+    .custom-button::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        border-style: solid;
+        border-width: 6px 0 6px 12px;
+        border-color: transparent transparent transparent #000;
+    }
+
+    .custom-button:hover {
+        background-color: transparent;
+        border: 2px solid #CD7F32;
+        color: #fff;
+        cursor: pointer;
+    }
+
+        .custom-button:hover: {
+            background-color: #fff;
+            color: #fff;
+            border: 2px solid #CD7F32;
+            cursor: pointer;
+        }
+
+        .custom-button:hover::after {
+            border-color: transparent transparent transparent #fff;
+        }
+
+/****************descricao*****************/
+.background-descricao {
+    background-color: #CD7F32;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+
+.descricao {
+    height: 365px;
+    width: 335px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+    .descricao i {
+        font-size: 50px;
+        display: block;
+        text-align: center;
+        margin: 25px 0px;
+        color: #fff;
+    }
+
+h5 {
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.Pequeno-texto {
+    color: #fff;
+    font-size: 20px;
+}
+
+.background-onda {
+    background-color: #000;
+    margin-top: -100px;
+}
+
+
+/************************************************/
+
+.background-telefone {
+    background-image: url('../Image/backgroundtelefone.png');
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-telefone {
+    flex: 1;
+    margin: 100px;
+}
+
+.left-telefone-image {
+    width: 30vw;
+    height: 60vh;
+    margin: -100px;
+}
+
+.rigth-telefone {
+    flex: 1;
+    text-align: center;
+    margin-left: -260px;
+}
+
+
+/**/
+
+.button-telefone {
+    margin-top: 20px;
+}
+
+.telefone-button {
+    background-color: #CD7F32;
+    color: #000;
+    letter-spacing: 2px;
+    text-transform: none;
+    border: 2px solid transparent;
+    padding: 13px 35px;
+    border-radius: 10px;
+    transition: .4s;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+}
+
+    .telefone-button::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        border-style: solid;
+        border-width: 6px 0 6px 12px;
+        border-color: transparent transparent transparent #000;
+    }
+
+    .telefone-button:hover {
+        background-color: transparent;
+        color: #fff;
+        border: 2px solid #CD7F32;
+        cursor: pointer;
+    }
+
+        .telefone-button:hover: {
+            background-color: #fff;
+            color: #fff;
+            border: 2px solid #CD7F32;
+            cursor: pointer;
+        }
+
+        .telefone-button:hover::after {
+            border-color: transparent transparent transparent #fff;
+        }
+
+/**/
+
+/**************************************************/
+
+
+
+footer {
+    color: #FFF;
+}
+
+#footer_content {
+    background-image: url('../Image/Design sem nome (25).png');
+    background-repeat: no-repeat;
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+    height: 200px;
+}
+
+
+#footer_contacts h1 {
+    margin-bottom: 0.75rem;
+}
+
+#footer_contacts img {
+    width: 300px;
+    height: 300px;
+}
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+    #footer_social_media .footer-link {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        height: 2.5rem;
+        width: 2.5rem;
+        color: aqua;
+        border-radius: 50%;
+    }
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+    text-align: center;
+    margin-right: -1265px;
+    margin-top: 50px;
+}
+
+    .footer-list h3 {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+
+
+
+
+#footer_copyright {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+}
+
+
+
+/*compelmento*/
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+    #footer_social_media .footer-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 3.5rem;
+        width: 3.5rem;
+        color: #CD7F32;
+        border-radius: 0%;
+        transition: all 0.4s;
+    }
+
+        #footer_social_media .footer-link i {
+            font-size: 1.5rem;
+        }
+
+        #footer_social_media .footer-link:hover {
+            background-color: #CD7F32;
+            color: #000;
+        }
+
+#instagram {
+    background-color: #000;
+    box-shadow: 0px 0px 0px 1px #fff;
+}
+
+
+#whatsapp {
+    background-color: #000;
+    box-shadow: 0px 0px 0px 1px #fff;
+}
+
+right-footer {
+    width: 300px;
+    height: 300px;
+}
